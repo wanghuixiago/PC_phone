@@ -1,0 +1,134 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>手机购买页面</title>
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/money.css" />
+
+<script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script> 
+
+ <script type="text/javascript" src="javascript/top.js"></script> 
+ <script type="text/javascript">    
+/*商品数量框输入*/  
+window.onload=function(){
+function keyup(){  
+    var quantity = document.getElementById("quantity").value;  
+    if(isNaN(quantity) ||  parseInt(quantity)!=quantity || parseInt(quantity)<1){  
+        quantity = 1;  
+        return;  
+    }  
+  /* if(quantity>=10){  
+        document.getElementById("quantity").value=quantity.substring(0,quantity.length-1);  
+        alert("商品数量不能大于10");  
+    }*/
+	
+}  
+
+/* var price=${phone2.price}; */
+/*商品数量+1*/  
+function num(){  
+    var quantity = document.getElementById("quantity").value;  
+    var num_add = parseInt(quantity)+1;  
+    
+    if(quantity==""){  
+        num_add = 1;  
+    }  
+    /*if(num_add>=10){  
+        document.getElementById("quantity").value=num_add-1;  
+        alert("商品数量不能大于10");  
+    }else{  */
+        document.getElementById("quantity").value=num_add;  
+        var Num=price*num_add;  
+        window.document.getElementById("totalPrice1").value=Num.toFixed(2); 
+        window.document.getElementById("JtotalPrice1").value=Num.toFixed(2);  
+       /*  session.setAttribute("totalPrice1",Num.toFixed(2)); */
+   // }  
+}  
+/*商品数量-1*/  
+function numDec(){  
+    var quantity = document.getElementById("quantity").value;  
+    var price=document.getElementById("price").value;  
+    var num_dec = parseInt(quantity)-1;  
+    if(num_dec>0){  
+        document.getElementById("quantity").value=num_dec;  
+        var Num=price*num_dec;  
+         document.getElementById("totalPrice1").value=Num.toFixed(2);
+         document.getElementById("JtotalPrice1").value=Num.toFixed(2);  
+    }  
+}  
+}
+		
+</script> 
+</head>
+<body>
+<!--页面的顶部-->
+
+<!--页面内容-->
+<div class="sl_area">
+	<h1 class="tit">购物车</h1>
+	<div id="contentList">
+		<form  method="post">
+		<!--action="${pageContext.request.contextPath}/phone/account.action"-->
+		<table border="0" cellpadding="0" cellspacing="0" class="mycart_table">
+			<tr>
+				<th>商品</th>
+				<th>&nbsp;</th>
+				<th>单价</th>
+				<th>购买数量</th>
+				<th>小计</th>
+				<th>操作</th>
+			</tr>
+			<tr>
+				<td class="img">
+					<div class="ui_pimg">
+					<a href="/goods/1375-2803" target="_blank" hidefocus="true">
+							<img src="phone2.img}"  width="100" height="100" alt="金立F6 颜色:曜岩黑" />
+						</a>
+					</div>
+				</td>
+				<td class="name">
+					<a href="/goods/1375-2803" target="_blank" hidefocus="true" class="ui_pname" title="金立F6 颜色:曜岩黑 ">
+				<!--	${phone2.phoneName }  ${phone2.introduce }-->
+					</a>
+				</td>
+				<td>
+				<span class="ui_price"><em>&yen;</em><!--单价-->  
+					<span><input  value="10" id="price" disabled="disabled" style="border: none;width: 50px;background-color: transparent;"/>
+					</span>
+				</span>
+				</td>
+				<td>
+					<div class="ui_quantity" rec_id="731671">
+						<p><span onclick="numDec()">-</span> <input type="text" id="quantity" value="1" name="quantity"  style="border: none;width: 20px;background-color: transparent;"/> <span onclick="num()">+</span></p> 
+					</div>
+				</td>
+				<td>
+					<span class="ui_price fn_hl"><em>&yen;</em>&nbsp;<input id="totalPrice1" name="totalPrice" value="0"  style="border: none;width: 80px;background-color: transparent;"/>
+					</span>
+				</td>
+				<td>
+					<span class="ui_price fn_hl"><a href="#" target="_self" hidefocus="true" class="del" rec_id="731671">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;删除</a>
+					</span>
+				</td>
+	  </tr>
+		</table>
+		<input type="hidden" name="phoneName" value="${phone2.phoneName }" />		
+		<div class="op">
+			<p  class="confirm">确认订单信息</p>				
+			<p class="price">总价:<span class="ui_price"><em>&yen;&nbsp;</em><span id="JtotalPrice"><input id="JtotalPrice1" value="0" name="JtotalPrice1" disabled="disabled" style="border: none;width: 80px;background-color: transparent;"/></span></span>
+			
+			<input type="submit" value="去结算" class="toCart" id="goBtn"/>
+			</p>
+		</div>
+		</form>
+	</div>
+</div>
+<!-- 页面底部-->
+<script type="text/javascript" src="javascript/bottom.js"></script>
+
+
+</body>
+</html>

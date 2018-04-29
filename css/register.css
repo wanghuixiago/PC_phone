@@ -1,0 +1,110 @@
+/* CSS Document */
+#left{
+float:left;
+padding-top:13px;
+padding-left:18px;
+}
+#left1{
+float:left;
+padding-top:13px;
+padding-left:18px;
+}
+.bao{
+width:67%;
+  height:406px;
+  background-color:#dfdfdf;
+  padding-top:12px;
+  margin:0 auto;
+}
+
+
+.back{
+  width:32%;
+  height:366px;
+  background-color:#efefef;
+   margin:0 auto;
+  
+
+}
+.loginWin-container-l
+{
+ 
+	vertical-align:middle;
+   	margin:0 auto;
+    width:90%;
+     height:290px;
+	 padding-top:12px;
+	
+	}
+
+.loginWin-head {
+text-align:center;
+    font-size:18px;
+	margin-top:20px;
+    padding: 15px 10px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	
+	}
+	
+.loginWin-inputbox {
+	height:40px;
+    padding: 15px 0px;
+    margin: 0 auto;
+	
+	}
+login input, .op-user-login .op-login input {
+    outline: 0;
+ 
+	}
+
+.loginWin-input-wrapper {
+    position: relative;
+	
+
+}
+
+.login_win_loginBtn {
+    display: block;
+    position: relative;
+     width:90%;
+    height: 52px;
+    font-size: 14px;
+    line-height: 52px;
+    margin: 10px auto;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #d70226;
+    background: #eb0028;
+    border-radius: 4px;
+	}
+
+	.login_win_input{
+	    font-size: 14px;
+    border-radius: 5px;
+    height: 40px;
+    text-indent: 20px;
+    border: none;
+	width:290px;
+	
+}
+
+.qq{
+margin-top:10px;
+margin-bottom:10px;
+color:#999999;
+padding-left:19px;
+}
+.qql{
+margin-top:10px;
+margin-bottom:10px;
+color:#999999;
+padding-right:19px;
+}
+
+.qq a{
+color:#FF0033;
+}
+.qql a{
+color:#FF0033;
+}

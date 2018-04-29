@@ -1,0 +1,31 @@
+/* CSS Document */
+.bao{
+width:67%;
+background-color:#e5e5e5;
+margin:0 auto;
+padding-top:20px;
+ padding-bottom:20px;
+
+}
+.alone{
+width:80%;
+    margin: 0 auto;
+    background: #f6f6f6;
+    box-shadow: 0 0 5px #dcdcdc;
+}
+.content{
+width:70%;
+height:95%;
+margin:0 auto;
+color: #999;
+line-height: 42px;
+font-size:14px;
+padding-bottom:20px;
+}
+
+.tit{
+padding-top:30px;
+text-align:center;
+font-size:21px;
+color:#333;
+}

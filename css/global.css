@@ -1,0 +1,278 @@
+
+ul, ol { list-style:none; }
+a{
+color:#000000;
+text-decoration:none;
+}
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+.top{
+width:100%;
+background-color:#FFFFFF;
+height:70px;
+border-bottom:3px solid #eaeaea;
+
+}
+.fr{
+float:right;
+}
+.fl{
+float:left;
+}
+.sign{
+padding-top:9px;
+padding-right:99px
+}
+#hr-price{
+color:#FF3366;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+.hr-title{
+font-size:large;
+}
+.hr-money{
+font-weight:300;
+color:#FF0000;
+}
+.hr-des{
+margin-top:12px;
+}
+.top_page_l{
+line-height:70px;
+padding-left:99px;
+padding-bottom:2px;
+}
+.top_page_l img{
+width:60px;
+height:65px;
+vertical-align:middle;
+}
+.top_page_r ul {
+margin:0px;
+}
+
+.top_page_r ul li{
+float:left;
+padding-right:120px;
+line-height:70px;
+font-size:16px;
+}
+
+.top_page_r li:hover a {
+color:#fe6a00;
+}
+.ad{
+width:100%;
+height:750px;
+margin:0 auto;
+padding-top:3px;
+}
+.ad img{
+width:100%;
+height:810px;
+
+}
+
+.title{
+margin:0px;
+width:100%;
+height:85px;
+line-height:85px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+}
+.live{
+width:100%;
+height:450px;
+background-color:#FFFFFF;
+display:inline-block;
+}
+.live ul{
+width:70%;
+height:370px;
+vertical-align:middle;
+margin:0 auto;
+}
+.live ul li{
+vertical-align:center;
+width:27%;
+margin-left:20px;
+margin-right:8%;
+}
+.live ul li img{
+width:290px;
+height:357px;
+margin:0 auto;
+}
+.grey{
+width:100%;
+height:2050px;
+background-color:#e5e5e5;
+}
+.buy{
+width:100%;
+height:1000px;
+
+}
+.buy ul{
+width:70%;
+height:760px;
+vertical-align:middle;
+margin:0 auto;
+text-align:center;
+}
+.buy ul li{
+width:30%;
+height:439px;
+background-color:#FFFFFF;
+margin:12px;
+}
+.buy ul li img{
+width:180px;
+height:300px;
+vertical-align:middle;
+margin-top:15px;
+
+}
+.adition{
+width:100%;
+height:900px;
+
+}
+
+.center{
+margin-bottom:0px;
+height:65px;
+line-height:65px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+}
+.adition ul{
+width:70%;
+height:780px;
+vertical-align:middle;
+margin:0 auto;
+text-align:center;
+}
+.adition ul li{
+width:30%;
+height:435px;
+background-color:#FFFFFF;
+margin:12px;
+}
+
+.adition ul li img{
+width:310px;
+height:240px;
+vertical-align:middle;
+margin-top:15px;
+}
+.safe{
+width:100%;
+height:185px;
+background-color:#FFFFFF;
+border-bottom:#eaeaea 1px solid;
+}
+.safe ul{
+width:70%;
+height:185px;
+vertical-align:middle;
+margin:0 auto;
+text-align:center;
+
+}
+
+.safe ul li{
+width:20%;
+background-color:#FFFFFF;
+margin-top:20px;
+margin-left:20px;
+}
+.safe ul li span   
+{
+display: block;
+  padding-top: 15px;
+  }
+.footer-top{
+width:100%;
+height:285px;
+vertical-align:middle;
+ color:#777;
+}
+._top{
+width:70%;
+height:285px;
+margin:0 auto;
+}
+.footer-top dl{
+padding-left:30px;
+    margin-top:15px;
+    float: left;
+    width: 15%;
+    line-height: 34px;
+   
+}
+.footer-top dt{
+font-size:16px;
+}
+.footer-top dd{
+margin-left:0px;
+font-size:12px;
+}
+.footer-top dd a{
+margin-left:0px;
+font-size:12px;
+color:#777;
+}
+.icon{
+width:100px;
+height:190px;
+}
+.weixin{
+margin-top:20px;
+width:105px;
+height:105px;
+background-image:url(../images/zhandian/erweima.png);
+}
+.icon span{
+font-size:12px;
+}
+.footer-bottom{
+width:100%;
+height:166px;
+background-color:#333;
+
+}
+.bottom{
+padding-left:30px;
+width:70%;
+height:166px;
+vertical-align:middle;
+margin:0 auto;
+
+}
+.bottom p{
+margin:0px;
+font-size:16px;
+padding:16px;
+color:#999;
+}
+.m{
+vertical-align:middle;
+}
+span.ic{
+vertical-align:middle;
+}
+
+
+
+

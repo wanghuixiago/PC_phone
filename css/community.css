@@ -1,0 +1,93 @@
+/* CSS Document */
+.community{
+width:100%;
+height:2400px;
+
+}
+ #large{
+ text-align:center;
+ font-size:xx-large;
+ font-weight:700;
+ color:#05b570;
+   }
+   #m{
+   text-align:center;
+   font-size:18px;
+   }
+  /* .huati{
+    width:1850px;
+   height:330px;
+    background-color:#0066FF£»
+   }*/
+ .huati ul{
+width:70%;
+height:640px;
+vertical-align:middle;
+margin:0 auto;
+text-align:center;
+}
+.huati ul li{
+width:33%
+}
+.huati ul li img{
+width:95%;
+height:260px;
+vertical-align:middle;
+margin-top:25px;
+padding-right:18px;
+}
+.lan ul{
+width:70%;
+height:440px;
+margin:0 auto;
+text-align:center;
+}
+.lan ul li{
+margin-right:16px;
+   width:30%;
+   height:300px;
+   
+}
+.lan ul li img{
+   width:95%;
+   height:300px;
+}
+.grey1{
+background-color:#e5e5e5;
+}
+.huodon ul{
+width:70%;
+height:300px;
+vertical-align:middle;
+margin:0 auto;
+text-align:center;
+
+}
+.huodon ul li{
+width:48%;
+}
+.huodon ul li img{
+width:90%;
+height:260px;
+vertical-align:middle;
+margin-top:25px;
+padding-right:28px;
+padding-left:10px;
+}
+.app{
+height:560px;
+}
+.app ul li img{
+width:100%;
+
+}
+.app1{
+width:100%;
+height:460px;
+vertical-align:middle;
+margin:0 auto;
+text-align:center;
+}
+.grey2{
+height:560px;
+background-color:#e5e5e5;}

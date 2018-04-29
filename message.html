@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>留言系统</title>
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/message.css" />
+<script type="text/javascript" src="javascript/top.js"></script>
+</head>
+
+<body>
+
+<!--页面的开始-->
+ <div class="message">
+<h1 class="tit">欢迎您留言</h1>
+<p class="service_tip">如果您对果壳产品或服务有任何意见或建议，欢迎给我们留言。</p>
+<form method="post" action="submit.html">
+  <fieldset>
+    <p>
+     <label for="name"><span class="star">*</span>姓&nbsp;&nbsp;&nbsp;&nbsp;名:</label>
+     <input type="text" id="name" name="name" placeholder="您的姓名" required="required" />
+    </p>
+    <p>
+     <label for="email"><span class="star">*</span>联系方式:</label>
+     <input type="email" id="email" name="email" placeholder="您的手机号、邮箱号等" required="required" />
+    </p>
+	<p>
+     <label for="email"><span class="star">*</span>问题种类:</label>
+   <input type="radio" name="type" value="1" checked="checked"><label for="liuyan">留言 &nbsp;&nbsp;</label>
+<input type="radio" name="type" value="2"><label for="tousu">投诉&nbsp;&nbsp;</label>
+<input type="radio" name="type" value="3"><label for="jianyi">建议</label> 
+    </p>
+	  <label for="message" class="fl">问题描述:&nbsp;</label>
+    <div id="message">	 
+     <textarea cols="75" rows="26" name="message" required="required" placeholder="在这里填写您的留言信息"></textarea>
+	<p class="num">300字以内</p></div>
+    <div class="me-su"><input id="sub" type="submit" value="提交" /></div>
+   </fieldset>
+</form>
+  </div>
+  <!--安全保障-->
+ <div class="safe">
+      <ul>
+	    <li class="fl"><img src="images/zhandian/7.PNG">
+		 <span>7天无理由退货</span>
+	    </li>
+	    <li class="fl"><img src="images/zhandian/15.PNG" />
+		<span>15天退货保障</span>
+		</li>
+	
+	    <li class="fl"><img src="images/zhandian/30.PNG" />
+		<span>30天换货保障</span>
+		</li>
+		
+		 <li class="fl"><img src="images/zhandian/99.PNG" />
+		<span>90元全场包邮</span>
+		</li>
+	  </ul>
+  </div>
+ </div>
+
+<!-- 页面底部-->
+<script type="text/javascript" src="javascript/bottom.js"></script>
+  <script src="scripts/global.js"></script>
+</body>
+</html>

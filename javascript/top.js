@@ -1,0 +1,28 @@
+// JavaScript Document
+document.writeln("<!DOCTYPE html PUBLIC \'-//W3C//DTD XHTML 1.0 Transitional//EN\' \'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\'>");
+document.writeln("<html xmlns=\'http://www.w3.org/1999/xhtml\'>");
+document.writeln("<head>");
+document.writeln("<meta http-equiv=\'Content-Type\' content=\'text/html; charset=gb2312\' />");
+document.writeln("<title>头部文件</title>");
+document.writeln("<link rel=\'shortcut icon\' href=\'images/favicon.ico\' />");
+document.writeln("<link rel=\'stylesheet\' href=\'css/global.css\' />");
+document.writeln("");
+document.writeln("</head>");
+document.writeln("");
+document.writeln("<body>");
+document.writeln("<div class=\'top\'>");
+document.writeln("    ");
+document.writeln("   <div class=\'top_page_l fl\'><img src=\'images/lunbo/buhuo.PNG\' />您好！欢迎您来到官网！</div>");
+document.writeln("   <div class=\'top_page_r fr\'>");
+document.writeln("	  <ul>");
+document.writeln("		<li><a href=\'index1.html\'>首页</a></li>");
+document.writeln("		<li><a href=\'dynamic.html\'>品牌</a></li>");
+document.writeln("		<li><a href=\'sj.html\'>手机</a></li>");
+document.writeln("		<li><a href=\'service.html\'>服务与支持</a></li>");
+document.writeln("		<li><a href=\'community.html\'>社区</a></li>");
+document.writeln("		<li class=\'sign fr\'><a href=\'sign.html\'><img src=\'images/lunbo/denglu.PNG\' /></a></li>");
+document.writeln("	  </ul>");
+document.writeln("	</div>");
+document.writeln("</div>");
+document.writeln("</body>");
+document.writeln("</html>");

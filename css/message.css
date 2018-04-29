@@ -1,0 +1,54 @@
+/* CSS Document */
+form{
+width:67%;
+height:800px;
+margin:0 auto;
+}
+.tit{
+    font-size: 22px;
+    font-weight:bold;
+    border-bottom: solid 2px #eaeaea;
+    text-align:center;
+}
+
+.service_tip {
+    padding-left:290px;
+    margin: 20px 0;
+    font-size: 14px;}
+ .star{
+	 font-weight: normal;
+    font-size: 14px;
+    text-align: right;
+	color:#FF0000;
+}
+.num{
+padding-left:79px;
+color:#777;
+}
+#sub{
+background:#FF3300;
+    width: 88px;
+    height: 36px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 14px;
+}
+.me-su{
+padding-left:279px;
+
+}
+.message{
+vertical-align:middle;
+}
+fieldset{
+margin:0 auto;
+vertical-align:middle;
+}
+
+
+
+
+
